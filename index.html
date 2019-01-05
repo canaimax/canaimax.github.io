@@ -6,7 +6,7 @@ body {
   display: grid;
   grid-template-areas: 
     "header header header"
-    "nav article ads"
+    "nav article"
     "footer footer footer";
   grid-template-rows: 80px 1fr 70px;  
   grid-template-columns: 20% 1fr 15%;
@@ -40,10 +40,9 @@ header, footer, article, nav, div {
     grid-template-areas: 
       "header"
       "article"
-      "ads"
       "nav"
       "footer";
-    grid-template-rows: 80px 1fr 140px 1fr 70px;  
+    grid-template-rows: 80px 120px 120px 80px;  
     grid-template-columns: 1fr;
  }
 }
