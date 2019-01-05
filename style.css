@@ -24,7 +24,7 @@
     background: Silver;
     display: grid;
     grid-template-columns: repeat(3, minmax(60px, 1fr));
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: .7fr 1.2fr .1fr;
       
 grid-gap: 10px;
      
