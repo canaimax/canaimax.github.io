@@ -1,5 +1,3 @@
-
 function date() {
-    document.getElementById('mydate').innerHTML = "your date code";
+  document.getElementById("date").innerHTML = new Date().toString()
 }
-
