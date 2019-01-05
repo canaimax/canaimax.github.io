@@ -8,7 +8,7 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    'head'  ;
+    'head head head head head head'  ;
   grid-gap: 10px;
   background-color: #2196F3;
   padding: 10px;
@@ -26,7 +26,7 @@
   display: grid;
   grid-template-areas:
 
-    'menu  main'
+    'menu menu menu main main  main'
 
   ;
   grid-gap: 10px;
@@ -47,7 +47,7 @@
   display: grid;
   grid-template-areas:
 
-    'right footer'
+ 'right rigth rigth footer footer footer'
 
   ;
   grid-gap: 10px;
