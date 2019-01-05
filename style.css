@@ -11,7 +11,7 @@
     background: LightGray;
     display: grid;
       
- grid-template-columns: repeat(3, minmax(60px, 1fr));
+ grid-template-columns: repeat(3, minmax(10px, 2.5fr));
  
     grid-template-rows: .25fr 2.5fr .25fr;
     grid-gap: 10px;
