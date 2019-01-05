@@ -1,5 +1,4 @@
 
-function msg(){  
- alert("Hello Javatpoint");  
-}  
-
+function awesomeClick(){
+  alert('awesome click triggered');
+}
