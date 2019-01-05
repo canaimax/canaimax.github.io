@@ -2,8 +2,10 @@
 .item1 { grid-area: head; }
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
+.item4 { grid-area: left; }
+.item5 { grid-area: footer;}
+.item6 { grid-area: xxx;}
+/* .item6 ( grid-area: right;) */
 
 .grid-container {
   display: grid;
@@ -47,7 +49,7 @@
   display: grid;
   grid-template-areas:
 
- 'right rigth rigth footer footer footer'
+ 'left left footer footer xxx xxx'
 
   ;
   grid-gap: 10px;
@@ -57,6 +59,7 @@
 }
 
 .grid-container-three > div {
+	  grid-template-columns: auto auto auto;
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
