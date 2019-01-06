@@ -1,4 +1,5 @@
-
 function awesomeClick(){
-  alert(new Date());
+    window.console.log(Date());
+    console.log(Date());
+    alert(new Date());
 }
